@@ -1,1 +1,23 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Dart - Tag - 佚名的Blog</title><link>http://example.com/tags/dart/</link><description>Dart - Tag - 佚名的Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>nobodymessage@outlook.com (佚名)</managingEditor><webMaster>nobodymessage@outlook.com (佚名)</webMaster><lastBuildDate>Fri, 19 Apr 2024 09:41:51 +0800</lastBuildDate><atom:link href="http://example.com/tags/dart/" rel="self" type="application/rss+xml"/><item><title>Fluter 知识点</title><link>http://example.com/posts/flutter%E7%9F%A5%E8%AF%86%E7%82%B9/</link><pubDate>Fri, 19 Apr 2024 09:41:51 +0800</pubDate><author>佚名</author><guid>http://example.com/posts/flutter%E7%9F%A5%E8%AF%86%E7%82%B9/</guid><description>1.Flutter简介 什么是Flutter？ Flutter是Google开发的开源UI软件开发工具包，用于构建块平台的移动、Web、和桌面应</description></item></channel></rss>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>Dart - Tag - 佚名的Blog</title><link>http://example.com/tags/dart/</link><description>Dart - Tag - 佚名的Blog</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>nobodymessage@outlook.com (佚名)</managingEditor><webMaster>nobodymessage@outlook.com (佚名)</webMaster><lastBuildDate>Fri, 19 Apr 2024 09:41:51 +0800</lastBuildDate><atom:link href="http://example.com/tags/dart/" rel="self" type="application/rss+xml"/><item><title>Fluter 知识点</title><link>http://example.com/posts/flutter%E7%9F%A5%E8%AF%86%E7%82%B9/</link><pubDate>Fri, 19 Apr 2024 09:41:51 +0800</pubDate><author>佚名</author><guid>http://example.com/posts/flutter%E7%9F%A5%E8%AF%86%E7%82%B9/</guid><description><![CDATA[<h2 id="1flutter简介">1.Flutter简介</h2>
+<ul>
+<li>什么是Flutter？
+Flutter是Google开发的开源UI软件开发工具包，用于构建块平台的移动、Web、和桌面应用程序</li>
+<li>Flutter的工作原理是什么？
+Flutter使用Dart语言编写，它有自己的渲染引擎，可以直接编译成本地代码。Flutter不依赖于任何平台的原生组件，而是使用自己的高性能渲染引擎来绘制Widget。</li>
+</ul>
+<h2 id="2-flutter的优点">2. Flutter的优点</h2>
+<ul>
+<li><strong>跨平台开发</strong>： 使用一套代码库就可以构建iOS、Android、Web和桌面应用程序</li>
+<li><strong>热重载</strong>：开发者可以即时看到应用的更改，无需重新启动应用，提高开发效率</li>
+<li><strong>性能接近原生</strong>：由于Flutter的应用是直接编译为机器码，这使得其性能接近于原生应用。Flutter的渲染过程是独立于原生平台的，这意味着不管运行在哪个平台，应用都能保持一致的性能特性</li>
+<li><strong>丰富的组件和开源库</strong>：Flutter提供了大量可以即时使用的UI组件，同时社区也提供了丰富的插件支持</li>
+</ul>
+<h2 id="3flutter的缺点">3.FLutter的缺点</h2>
+<ul>
+<li><strong>包体积较大</strong>：由于Flutter需要包含自己的渲染引擎和其他组件，使用Flutter开发的App往往比使用原生代码开发的App要大。这可能会影响到最终用户的下载和安装体验。</li>
+<li><strong>学习曲线</strong>：尽管Flutter的入门相对简单，但其背后的语言Dart可能不像JavaScript或Python那样普及。因此，初学者可能需要时间来适应Dart语言及Flutter框架。</li>
+<li><strong>平台适配</strong>：尽管Flutter力求在各平台上保持一致性，但事实上每个平台都有自己的特色和设计准则。在某些情况下，开发者可能需要针对特定平台进行额外的调整和优化，以确保应用能够良好地融入不同的操作系统环境中。</li>
+</ul>
+<h2 id="4描述flutter的架构">4.描述Flutter的架构</h2>
+<p>
+Flutter 被设计为一个可扩展的分层系统。它可以被看作是各个独立的组件的系列合集，上层组件各自依赖下层组件。组件无法越权访问更底层的内容，并且框架层中的各个部分都是可选且可替代的。</p>]]></description></item></channel></rss>
